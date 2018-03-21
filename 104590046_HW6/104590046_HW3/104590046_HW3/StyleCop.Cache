@@ -1,0 +1,180 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="337003169">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <project key="2086049121">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AboutSpellingCheckerForm.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/17 23:13:41.897</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="EnglishTestForm.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/20 11:32:43.186</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="EnglishTestForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/20 11:32:42.371</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Model.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/11 01:18:06.113</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="Method3" ruleCheckId="MT0003">
+        <context>ICS(函式-3)</context>
+        <line>154</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="PresentationModel .cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/12 01:45:42.377</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="PresentationModelBool.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/11 01:49:08.092</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/20 11:50:44.910</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="SpacingAndNewLine16" ruleCheckId="SN0016">
+        <context>ICS(空白與空行-16)</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="UnsuitableNaming" ruleCheckId="UN0001">
+        <context>Unsuitable naming(名不符實)-SetProcessDPIAware(dpi)</context>
+        <line>28</line>
+        <index>853</index>
+        <endIndex>900</endIndex>
+        <startLine>28</startLine>
+        <startColumn>9</startColumn>
+        <endLine>28</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="Method1" ruleCheckId="MT0001">
+        <context>ICS(函式-1)</context>
+        <line>28</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/26 16:28:49.860</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/17 23:15:56.690</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReadFile.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/26 00:37:51.539</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Timer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/10 23:35:43.903</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Word.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/24 13:21:29.582</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="ClassDeclaration1" ruleCheckId="CD0001">
+        <context>ICS(類別宣告-1)</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="ClassDeclaration1" ruleCheckId="CD0001">
+        <context>ICS(類別宣告-1)</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

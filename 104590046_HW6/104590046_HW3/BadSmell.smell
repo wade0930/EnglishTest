@@ -1,0 +1,3747 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>ICS(函式-3)</SmellType>
+              <HashCode>Method3.Model.ReturnChoice</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Model.cs</File>
+              <Line>154</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.Program.SetProcessDPIAware.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Program.cs</File>
+              <Line>28</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>Unsuitable naming(名不符實)-SetProcessDPIAware(dpi)</SmellType>
+              <HashCode>UnsuitableNaming.Program.SetProcessDPIAware.SetProcessDPIAware</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Program.cs</File>
+              <Line>28</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>ICS(函式-1)</SmellType>
+              <HashCode>Method1.Program.SetProcessDPIAware</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Program.cs</File>
+              <Line>28</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>ICS(類別宣告-1)</SmellType>
+              <HashCode>ClassDeclaration1.Word._chinese</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Word.cs</File>
+              <Line>11</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>ICS(類別宣告-1)</SmellType>
+              <HashCode>ClassDeclaration1.Word._english</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Word.cs</File>
+              <Line>12</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Literal constants(字面常數)-"{Shift}"</SmellType>
+              <HashCode>LiteralConstants.Initialize."{Shift}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>33</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Literal constants(字面常數)-"Start"</SmellType>
+              <HashCode>LiteralConstants.TestStart."Start"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>51</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Literal constants(字面常數)-"Start"</SmellType>
+              <HashCode>LiteralConstants.TestStart."Start"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>52</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Literal constants(字面常數)-"Start"</SmellType>
+              <HashCode>LiteralConstants.FillTopicTest."Start"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>178</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Literal constants(字面常數)-"Start"</SmellType>
+              <HashCode>LiteralConstants.SelectTopicTest."Start"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>190</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Literal constants(字面常數)-"%s"</SmellType>
+              <HashCode>LiteralConstants.TestNext."%s"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>60</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>Literal constants(字面常數)-"%s"</SmellType>
+              <HashCode>LiteralConstants.TestStop."%s"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>70</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Literal constants(字面常數)-"%s"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."%s"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>126</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>Literal constants(字面常數)-"%n"</SmellType>
+              <HashCode>LiteralConstants.TestNext."%n"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>61</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Literal constants(字面常數)-"%t"</SmellType>
+              <HashCode>LiteralConstants.TestStop."%t"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>71</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Literal constants(字面常數)-"%alt"</SmellType>
+              <HashCode>LiteralConstants.GoAboutDictionary."%alt"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>80</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>Literal constants(字面常數)-"%alt"</SmellType>
+              <HashCode>LiteralConstants.FileTest."%alt"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>103</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Literal constants(字面常數)-"%hd"</SmellType>
+              <HashCode>LiteralConstants.GoAboutDictionary."%hd"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>81</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoAboutSpellingChecker."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>91</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStartTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>112</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>122</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>124</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>127</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>129</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>26</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStopTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>139</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>27</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStopTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>141</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>28</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStopTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>143</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>29</Id>
+              <SmellType>Literal constants(字面常數)-"{Alt}"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."{Alt}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>153</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>30</Id>
+              <SmellType>Literal constants(字面常數)-"%h"</SmellType>
+              <HashCode>LiteralConstants.GoAboutSpellingChecker."%h"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>92</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>31</Id>
+              <SmellType>Literal constants(字面常數)-"c"</SmellType>
+              <HashCode>LiteralConstants.GoAboutSpellingChecker."c"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>32</Id>
+              <SmellType>Literal constants(字面常數)-"ok"</SmellType>
+              <HashCode>LiteralConstants.GoAboutSpellingChecker."ok"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>95</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>33</Id>
+              <SmellType>Literal constants(字面常數)-"%fe"</SmellType>
+              <HashCode>LiteralConstants.FileTest."%fe"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>104</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>34</Id>
+              <SmellType>Literal constants(字面常數)-"%es"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStartTest."%es"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>113</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>35</Id>
+              <SmellType>Literal constants(字面常數)-"%es"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."%es"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>125</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>36</Id>
+              <SmellType>Literal constants(字面常數)-"%es"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStopTest."%es"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>142</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>37</Id>
+              <SmellType>Literal constants(字面常數)-1000</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStartTest.1000</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>114</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>38</Id>
+              <SmellType>Literal constants(字面常數)-1000</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest.1000</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>131</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>39</Id>
+              <SmellType>Literal constants(字面常數)-"%eo1"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."%eo1"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>123</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>40</Id>
+              <SmellType>Literal constants(字面常數)-"%eo1"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStopTest."%eo1"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>140</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>41</Id>
+              <SmellType>Literal constants(字面常數)-"%eo1"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."%eo1"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>154</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>42</Id>
+              <SmellType>Literal constants(字面常數)-"%en"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."%en"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>128</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>43</Id>
+              <SmellType>Literal constants(字面常數)-"%et"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationNextTest."%et"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>130</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>44</Id>
+              <SmellType>Literal constants(字面常數)-"%et"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationStopTest."%et"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>144</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>45</Id>
+              <SmellType>Literal constants(字面常數)-"%eo2"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."%eo2"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>155</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>46</Id>
+              <SmellType>Literal constants(字面常數)-"%eo5"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."%eo5"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>156</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>47</Id>
+              <SmellType>Literal constants(字面常數)-"%eqf"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."%eqf"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>157</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>48</Id>
+              <SmellType>Literal constants(字面常數)-"%eqm"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."%eqm"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>158</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>49</Id>
+              <SmellType>Literal constants(字面常數)-"%equ"</SmellType>
+              <HashCode>LiteralConstants.GoExaminationTest."%equ"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>159</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>50</Id>
+              <SmellType>Literal constants(字面常數)-"NumberOfQuestion"</SmellType>
+              <HashCode>LiteralConstants.SetQuestionNumberTest."NumberOfQuestion"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>167</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>51</Id>
+              <SmellType>Literal constants(字面常數)-"NumberOfQuestion"</SmellType>
+              <HashCode>LiteralConstants.SetQuestionNumberTest."NumberOfQuestion"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>168</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>52</Id>
+              <SmellType>Literal constants(字面常數)-"NumberOfQuestion"</SmellType>
+              <HashCode>LiteralConstants.FillTopicTest."NumberOfQuestion"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>176</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>53</Id>
+              <SmellType>Literal constants(字面常數)-"NumberOfQuestion"</SmellType>
+              <HashCode>LiteralConstants.SelectTopicTest."NumberOfQuestion"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>188</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>54</Id>
+              <SmellType>Literal constants(字面常數)-"5"</SmellType>
+              <HashCode>LiteralConstants.SetQuestionNumberTest."5"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>167</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>55</Id>
+              <SmellType>Literal constants(字面常數)-"5"</SmellType>
+              <HashCode>LiteralConstants.SelectTopicTest."5"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>188</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>56</Id>
+              <SmellType>Literal constants(字面常數)-"87"</SmellType>
+              <HashCode>LiteralConstants.SetQuestionNumberTest."87"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>168</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>57</Id>
+              <SmellType>Literal constants(字面常數)-"10"</SmellType>
+              <HashCode>LiteralConstants.FillTopicTest."10"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>176</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>58</Id>
+              <SmellType>Literal constants(字面常數)-"FillInput"</SmellType>
+              <HashCode>LiteralConstants.FillInputAndNext."FillInput"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>198</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>59</Id>
+              <SmellType>Literal constants(字面常數)-"test"</SmellType>
+              <HashCode>LiteralConstants.FillInputAndNext."test"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>198</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>60</Id>
+              <SmellType>Literal constants(字面常數)-"Next"</SmellType>
+              <HashCode>LiteralConstants.FillInputAndNext."Next"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>199</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>61</Id>
+              <SmellType>Literal constants(字面常數)-"Next"</SmellType>
+              <HashCode>LiteralConstants.SelectTopic."Next"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>222</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>62</Id>
+              <SmellType>Literal constants(字面常數)-"QuestionType"</SmellType>
+              <HashCode>LiteralConstants.SelectQuestionType."QuestionType"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>205</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>63</Id>
+              <SmellType>Literal constants(字面常數)-"Stop"</SmellType>
+              <HashCode>LiteralConstants.EndTopicTest."Stop"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>211</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>64</Id>
+              <SmellType>Literal constants(字面常數)-"Radio1"</SmellType>
+              <HashCode>LiteralConstants.SelectTopic."Radio1"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>218</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>65</Id>
+              <SmellType>Literal constants(字面常數)-"Radio2"</SmellType>
+              <HashCode>LiteralConstants.SelectTopic."Radio2"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>219</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>66</Id>
+              <SmellType>Literal constants(字面常數)-"Radio3"</SmellType>
+              <HashCode>LiteralConstants.SelectTopic."Radio3"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>220</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>67</Id>
+              <SmellType>Literal constants(字面常數)-"Radio4"</SmellType>
+              <HashCode>LiteralConstants.SelectTopic."Radio4"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>221</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>68</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoCleanup.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>41</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>69</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.TestStart.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>49</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>70</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.TestNext.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>71</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.TestStop.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>68</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>72</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoAboutDictionary.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>78</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>73</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoAboutSpellingChecker.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>88</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>74</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.FileTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>101</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>75</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoExaminationStartTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>110</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>76</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoExaminationNextTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>120</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>77</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoExaminationStopTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>137</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>78</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.GoExaminationTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>151</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>79</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.SetQuestionNumberTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>165</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>80</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.FillTopicTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>174</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>81</Id>
+              <SmellType>ICS(空白與空行-16)</SmellType>
+              <HashCode>SpacingAndNewLine16.CodedUITest1.SelectTopicTest.0</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>CodedUITest1.cs</File>
+              <Line>186</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>82</Id>
+              <SmellType>Literal constants(字面常數)-"DateTime"</SmellType>
+              <HashCode>LiteralConstants.ClickDateTimePicker."DateTime"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>83</Id>
+              <SmellType>Literal constants(字面常數)-"/"</SmellType>
+              <HashCode>LiteralConstants.ClickDateTimePicker."/"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>84</Id>
+              <SmellType>Literal constants(字面常數)-"/"</SmellType>
+              <HashCode>LiteralConstants.ClickDateTimePicker."/"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>85</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.ClickDateTimePicker.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>86</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.DelteteDataGridViewByIndex.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>191</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>87</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.AssertDateTimePicker.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>270</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>88</Id>
+              <SmellType>Literal constants(字面常數)-3</SmellType>
+              <HashCode>LiteralConstants.ClickDateTimePicker.3</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>93</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>89</Id>
+              <SmellType>Literal constants(字面常數)-3</SmellType>
+              <HashCode>LiteralConstants.DelteteDataGridViewByIndex.3</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>175</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>90</Id>
+              <SmellType>Literal constants(字面常數)-3</SmellType>
+              <HashCode>LiteralConstants.DelteteDataGridViewByIndex.3</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>181</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>91</Id>
+              <SmellType>Literal constants(字面常數)-3</SmellType>
+              <HashCode>LiteralConstants.AssertDateTimePicker.3</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>271</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>92</Id>
+              <SmellType>Literal constants(字面常數)-"Close"</SmellType>
+              <HashCode>LiteralConstants.CloseWindow."Close"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>152</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>93</Id>
+              <SmellType>Literal constants(字面常數)-"Task Type"</SmellType>
+              <HashCode>LiteralConstants.ClickListViewByValue."Task Type"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>200</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>94</Id>
+              <SmellType>Literal constants(字面常數)-"Task Type"</SmellType>
+              <HashCode>LiteralConstants.ClickListViewToEmpty."Task Type"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>215</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>95</Id>
+              <SmellType>Literal constants(字面常數)-"Task Type"</SmellType>
+              <HashCode>LiteralConstants.AssertListViewByValue."Task Type"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>285</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>96</Id>
+              <SmellType>Literal constants(字面常數)-"{Enter}"</SmellType>
+              <HashCode>LiteralConstants.SetNumericUpDown."{Enter}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>225</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>97</Id>
+              <SmellType>Literal constants(字面常數)-"{Enter}"</SmellType>
+              <HashCode>LiteralConstants.SendKeyEnterToMessageBox."{Enter}"</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>335</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>98</Id>
+              <SmellType>Large class(過大類別)</SmellType>
+              <HashCode>LargeClass.HomeWork.Tests.Robot.299</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>299</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>12</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>99</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>14</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>100</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>101</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>16</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>102</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>25</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>103</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>41</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>104</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>48</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>105</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>106</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>72</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>107</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>82</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>108</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>90</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>109</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>96</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>110</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>102</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>111</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>107</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>112</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>166</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>113</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>114</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>220</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>115</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>228</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>116</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>235</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>117</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>242</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>118</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>248</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>119</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>254</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>120</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>260</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>121</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>266</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>122</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>274</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>123</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>293</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>124</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>307</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>125</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>313</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>126</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>319</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>127</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>338</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>128</Id>
+              <SmellType>Static method and fields(濫用Static)</SmellType>
+              <HashCode>StaticMethodAndFields</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>344</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>129</Id>
+              <SmellType>Unsuitable naming(名不符實)-DelteteDataGridViewByIndex(deltete)</SmellType>
+              <HashCode>UnsuitableNaming.Robot.DelteteDataGridViewByIndex.DelteteDataGridViewByIndex</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>130</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.Robot.DelteteDataGridViewByIndex.23string[] data;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>23</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>131</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Robot.DelteteDataGridViewByIndex</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>132</Id>
+              <SmellType>Unsuitable naming(名不符實)-_Winrow(winrow)</SmellType>
+              <HashCode>UnsuitableNaming.Robot.AssertDataGridViewByIndex._Winrow</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>296</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>133</Id>
+              <SmellType>ICS(變數-2)</SmellType>
+              <HashCode>Variable2.AssertDataGridViewByIndex._Winrow</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>296</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>134</Id>
+              <SmellType>Unsuitable naming(名不符實)-hyperink(hyperink)</SmellType>
+              <HashCode>UnsuitableNaming.Robot.ClickHyperlink.hyperink</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>346</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>135</Id>
+              <SmellType>Unsuitable naming(名不符實)-ClickHyperlink(hyperlink)</SmellType>
+              <HashCode>UnsuitableNaming.Robot.ClickHyperlink.ClickHyperlink</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>344</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>136</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertButtonEnable 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertButtonEnable 缺乏註解.313</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>313</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>137</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertCheckBox 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertCheckBox 缺乏註解.254</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>254</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>138</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertComboBox 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertComboBox 缺乏註解.274</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>274</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>139</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertDataGridViewByIndex 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertDataGridViewByIndex 缺乏註解.293</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>293</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>140</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertDataItemsInDataGridView 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertDataItemsInDataGridView 缺乏註解.307</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>307</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>141</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertDateTimePicker 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertDateTimePicker 缺乏註解.266</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>266</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>142</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertEdit 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertEdit 缺乏註解.242</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>242</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>143</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertGroupEnabled 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertGroupEnabled 缺乏註解.319</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>319</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>144</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertListViewByValue 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertListViewByValue 缺乏註解.280</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>280</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>145</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertNumericUpDown 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertNumericUpDown 缺乏註解.260</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>260</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>146</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertOtherFormButtonEnable 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertOtherFormButtonEnable 缺乏註解.156</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>156</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>147</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertOtherFormEdit 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertOtherFormEdit 缺乏註解.114</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>114</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>148</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertText 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertText 缺乏註解.248</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>248</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>149</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 AssertWindow 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertWindow 缺乏註解.325</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>325</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>150</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 CacheComponentFound 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 CacheComponentFound 缺乏註解.72</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>72</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>151</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 CleanUp 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 CleanUp 缺乏註解.41</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>41</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>152</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickButton 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickButton 缺乏註解.96</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>96</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>153</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickDateTimePicker 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickDateTimePicker 缺乏註解.90</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>90</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>154</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickHyperlink 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickHyperlink 缺乏註解.344</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>344</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>155</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickListViewByValue 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickListViewByValue 缺乏註解.195</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>195</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>156</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickListViewToEmpty 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickListViewToEmpty 缺乏註解.211</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>211</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>157</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickMenuItem 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickMenuItem 缺乏註解.82</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>82</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>158</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickOtherFormButton 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickOtherFormButton 缺乏註解.135</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>135</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>159</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickRadioButton 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickRadioButton 缺乏註解.338</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>338</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>160</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 ClickTabControl 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickTabControl 缺乏註解.102</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>102</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>161</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 CloseWindow 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 CloseWindow 缺乏註解.145</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>145</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>162</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 DelteteDataGridViewByIndex 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 DelteteDataGridViewByIndex 缺乏註解.171</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>163</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 EnterTheKey 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 EnterTheKey 缺乏註解.166</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>166</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>164</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 FindWinControl 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 FindWinControl 缺乏註解.57</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>165</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 Initialize 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 Initialize 缺乏註解.25</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>25</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>166</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SendKeyEnterToMessageBox 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SendKeyEnterToMessageBox 缺乏註解.332</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>332</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>167</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetCheckBox 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetCheckBox 缺乏註解.235</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>235</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>168</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetComboBox 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetComboBox 缺乏註解.228</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>228</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>169</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetDelayBetweenActions 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetDelayBetweenActions 缺乏註解.20</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>170</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetEdit 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetEdit 缺乏註解.107</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>107</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>171</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetForm 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetForm 缺乏註解.48</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>48</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>172</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetNumericUpDown 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetNumericUpDown 缺乏註解.220</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>220</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>173</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetOtherFormEdit 缺乏註解</SmellType>
+              <HashCode>GUITEST_Tutorial\GUITEST_Tutorial.Robot.cs.Unresolved warnings(忽視警告)-函式 SetOtherFormEdit 缺乏註解.124</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial\GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>124</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>174</Id>
+              <SmellType>Unresolved warnings(忽視警告)-函式 SetProcessDPIAware 缺乏註解</SmellType>
+              <HashCode>104590046_HW3\104590046_HW3.Program.cs.Unresolved warnings(忽視警告)-函式 SetProcessDPIAware 缺乏註解.27</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3\104590046_HW3</Project>
+              <File>Program.cs</File>
+              <Line>27</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>175</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>Program.cs</File>
+              <Line>27</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Program.SetProcessDPIAware()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>176</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>20</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetDelayBetweenActions(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>177</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>25</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.Initialize(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>178</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>41</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.CleanUp()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>179</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>48</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetForm(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>180</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.FindWinControl(System.Type, string, Microsoft.VisualStudio.TestTools.UITesting.UITestControl)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>181</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>72</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.CacheComponentFound(Microsoft.VisualStudio.TestTools.UITesting.UITestControl, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>182</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>82</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickMenuItem(string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>183</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>90</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickDateTimePicker(string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>184</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>96</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickButton(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>185</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>102</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickTabControl(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>186</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>107</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetEdit(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>187</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>114</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertOtherFormEdit(string, string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>188</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>124</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetOtherFormEdit(string, string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>189</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>135</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickOtherFormButton(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>190</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>145</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.CloseWindow(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>191</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>156</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertOtherFormButtonEnable(string, string, bool)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>192</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>166</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.EnterTheKey(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>193</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>171</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.DelteteDataGridViewByIndex(string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>194</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>195</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickListViewByValue(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>195</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>211</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickListViewToEmpty(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>196</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>220</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetNumericUpDown(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>197</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>228</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetComboBox(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>198</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>235</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SetCheckBox(string, bool)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>199</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>242</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertEdit(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>200</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>248</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertText(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>201</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>254</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertCheckBox(string, bool)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>202</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>260</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertNumericUpDown(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>203</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>266</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertDateTimePicker(string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>204</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>274</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertComboBox(string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>205</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>280</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertListViewByValue(string, string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>206</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>293</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertDataGridViewByIndex(string, string, string[])</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>207</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>307</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertDataItemsInDataGridView(string, int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>208</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>313</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertButtonEnable(string, bool)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>209</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>319</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertGroupEnabled(string, bool)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>210</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>325</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.AssertWindow(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>211</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>332</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.SendKeyEnterToMessageBox(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>212</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>338</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickRadioButton(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>213</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>GUITEST_Tutorial</Project>
+              <File>Robot.cs</File>
+              <Line>344</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.Robot.ClickHyperlink(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>214</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3</Project>
+              <File>E:\C#\104590046_HW5\104590046_HW3\104590046_HW3\EnglishTestForm.cs</File>
+              <Line>101</Line>
+              <StartLine>100</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>101</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.EnglishTestForm(0) envy HomeWork.PresentationModel(2) :HomeWork.PresentationModel.IsLast(),HomeWork.PresentationModel.SetEnd(bool),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>215</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3Tests</Project>
+              <File>E:\C#\104590046_HW5\104590046_HW3\104590046_HW3Tests\ModelTests.cs</File>
+              <Line>94</Line>
+              <StartLine>93</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>94</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.ModelTests(1) envy HomeWork.Model(2) :HomeWork.Model.GetList(),HomeWork.Model.CheckIsSpeciesAnswer(int, string),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>216</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3Tests</Project>
+              <File>E:\C#\104590046_HW5\104590046_HW3\104590046_HW3Tests\ModelTests.cs</File>
+              <Line>148</Line>
+              <StartLine>147</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>148</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.ModelTests(1) envy HomeWork.Model(2) :HomeWork.Model.GetList(),HomeWork.Model.CheckSelectAnswer(string, int),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>217</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3Tests</Project>
+              <File>E:\C#\104590046_HW5\104590046_HW3\104590046_HW3Tests\ModelTests.cs</File>
+              <Line>149</Line>
+              <StartLine>148</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>149</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.ModelTests(1) envy HomeWork.Model(2) :HomeWork.Model.GetList(),HomeWork.Model.CheckSelectAnswer(string, int),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>218</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>104590046_HW3Tests</Project>
+              <File>E:\C#\104590046_HW5\104590046_HW3\104590046_HW3Tests\ReadFileTests.cs</File>
+              <Line>53</Line>
+              <StartLine>52</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>53</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>HomeWork.Tests.ReadFileTests(0) envy HomeWork.ReadFile(2) :HomeWork.ReadFile.GetRandomData(int),HomeWork.ReadFile.GetRandomData(int),</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList>
+            <string>53 HomeWork.Tests.ReadFileTests(0) envy HomeWork.ReadFile(2) :HomeWork.ReadFile.GetRandomData(int),HomeWork.ReadFile.GetRandomData(int),</string>
+            <string>87 HomeWork.Tests.ModelTests(0) envy HomeWork.Model(2) :HomeWork.Model.GetList(),HomeWork.Model.CheckIsSpeciesAnswer(int, string),</string>
+            <string>125 HomeWork.Tests.ModelTests(0) envy HomeWork.Model(4) :HomeWork.Model.GetList(),HomeWork.Model.GetList(),HomeWork.Model.GetList(),HomeWork.Model.AddLine(string),</string>
+            <string>125 HomeWork.Tests.ModelTests(0) envy HomeWork.Word(3) :HomeWork.Word._chinese,HomeWork.Word._english,HomeWork.Word._english,</string>
+            <string>156 HomeWork.Tests.ModelTests(0) envy HomeWork.Model(2) :HomeWork.Model.GetList(),HomeWork.Model.CheckSelectAnswer(string, int),</string>
+            <string>157 HomeWork.Tests.ModelTests(0) envy HomeWork.Model(2) :HomeWork.Model.GetList(),HomeWork.Model.CheckSelectAnswer(string, int),</string>
+          </HashCodeIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>AboutSpellingCheckerForm.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EnglishTestForm.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EnglishTestForm.Designer.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel .cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModelBool.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Resources.Designer.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ReadFile.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Timer.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Word.cs</RelativePath>
+                <ProjectName>104590046_HW3</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ModelTests.cs</RelativePath>
+                <ProjectName>104590046_HW3Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModelTests.cs</RelativePath>
+                <ProjectName>104590046_HW3Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>104590046_HW3Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ReadFileTests.cs</RelativePath>
+                <ProjectName>104590046_HW3Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CodedUITest1.cs</RelativePath>
+                <ProjectName>GUITEST_Tutorial</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>GUITEST_Tutorial</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Robot.cs</RelativePath>
+                <ProjectName>GUITEST_Tutorial</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>2447</ProductionLoc>
+          <TestLoc>644</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>

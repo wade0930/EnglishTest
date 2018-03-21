@@ -1,0 +1,53 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="1003769548">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <project key="894715219">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="ModelTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/19 21:06:30.722</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="PresentationModelTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/11/20 13:07:37.737</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/24 13:21:45.773</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ReadFileTests.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2017/09/24 16:44:23.810</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2017/10/29 00:14:39.418</sourceFile>
+      <parser>2017/09/24 16:44:23.810</parser>
+      <KellyPalRules.KellyPalAnalyzer>2017/09/24 16:44:23.810</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

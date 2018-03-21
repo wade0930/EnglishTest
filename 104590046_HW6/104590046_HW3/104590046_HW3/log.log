@@ -1,0 +1,8 @@
+Web method response: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=682&lastChangeId64=682] (GET)connectionData[connectionData] 706 ms
+Web method response: [https://vsspsextprodch1su1.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=33620&lastChangeId64=33620] (GET)connectionData[connectionData] 921 ms
+Web method running: [https://app.vssps.visualstudio.com/_apis/Accounts?memberId=431f9397-5e83-4f68-b320-afd5ebc23b3c&includeOwner=True&properties=Microsoft.VisualStudio.Services.Account.ServiceUrl.00025394-6065-48ca-87d9-7f5672854ef7] (GET)Accounts[Accounts]
+Web method running: [https://vsspsextprodch1su1.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile]
+Web method response: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=682&lastChangeId64=682] (GET)connectionData[connectionData] 956 ms
+Web method running: [https://app.vssps.visualstudio.com/_apis/Accounts?memberId=431f9397-5e83-4f68-b320-afd5ebc23b3c&includeOwner=True&properties=Microsoft.VisualStudio.Services.Account.ServiceUrl.00025394-6065-48ca-87d9-7f5672854ef7] (GET)Accounts[Accounts]
+Web method response: [https://vsspsextprodch1su1.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=33638&lastChangeId64=33638] (GET)connectionData[connectionData] 1250 ms
+Informational: ------ 載入播放清單已開始 ------
